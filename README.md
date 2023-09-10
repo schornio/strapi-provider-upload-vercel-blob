@@ -28,6 +28,8 @@ Update security policy:
 
 (From: https://github.com/strapi/strapi/blob/main/packages/providers/upload-aws-s3/README.md#security-middleware-configuration)
 
+`INSERT_HERE` you can get throug the `BLOB_READ_WRITE_TOKEN` (to lower case)"vercel*blob_rw***INSERT_HERE**\_000000000000000000000000000000"
+
 ```ts
 // File: /config/middlewares.ts
 export default [
