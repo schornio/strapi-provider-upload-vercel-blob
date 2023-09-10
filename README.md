@@ -9,6 +9,7 @@ npm i @schornio/strapi-provider-upload-vercel-blob
 Configure:
 
 ```ts
+// File: /config/plugins.ts
 export default ({ env }) => ({
   // ...
   upload: {
