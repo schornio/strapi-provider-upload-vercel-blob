@@ -2,7 +2,9 @@
 
 Install:
 
-`npm i @schornio/strapi-provider-upload-vercel-blob`
+```
+npm i @schornio/strapi-provider-upload-vercel-blob
+```
 
 Configure:
 
@@ -11,7 +13,7 @@ export default ({ env }) => ({
   // ...
   upload: {
     config: {
-      provider: 'vercel-blob',
+      provider: '@schornio/strapi-provider-upload-vercel-blob',
       providerOptions: {
         token: env('BLOB_READ_WRITE_TOKEN'),
       },
